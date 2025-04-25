@@ -161,17 +161,17 @@ function App() {
               {myInformations.aboutTitle}
             </h4>
             <p className="text-base md:text-[18px] leading-[160%] md:leading-[150%] mb-10 md:mb-[53px]">
-              Hi there! I’m a 20-year-old frontend developer from Shiraz,
+              Hi there! I'm a 20-year-old frontend developer from Shiraz,
               studying IT.
               <br />
               I pay close attention to details and always try to deliver the
-              best results. Solving problems excites me, and I’m always
+              best results. Solving problems excites me, and I'm always
               motivated to learn new things.
               <br />
-              When I’m not coding, I enjoy playing chess, watching football, and
+              When I'm not coding, I enjoy playing chess, watching football, and
               catching up on movies and TV shows.
               <br />
-              Feel free to reach out if you’d like to collaborate on something
+              Feel free to reach out if you'd like to collaborate on something
               great!
             </p>
             <div className="flex items-center gap-3 md:gap-4 mt-10">
@@ -217,17 +217,23 @@ function App() {
               I&apos;m good at the following:
             </p>
             <div className="mt-6 lg:mt-[32px]">
-              <ul className="flex text-sm lg:text-base font-bold gap-3 lg:gap-4 flex-wrap">
-                {skills.map((skill, i) => (
-                  <li
-                    key={i}
-                    className="py-3 px-5 lg:py-4 lg:px-8 rounded-[100px] border leading-[100%] border-[#484848] flex items-center gap-2"
-                  >
-                    {skill.icon}
-                    <span>{skill.name}</span>
-                  </li>
-                ))}
-              </ul>
+              {/* Group skills by category */}
+              {Array.from(new Set(skills.map(skill => skill.category))).map((category, i) => (
+                <div key={i} className="mb-8">
+                  <h4 className="text-xl font-bold text-white mb-4">{category}</h4>
+                  <ul className="flex text-sm lg:text-base font-bold gap-3 lg:gap-4 flex-wrap">
+                    {skills.filter(skill => skill.category === category).map((skill, j) => (
+                      <li
+                        key={j}
+                        className="py-3 px-5 lg:py-4 lg:px-8 rounded-[100px] border leading-[100%] border-[#484848] flex items-center gap-2"
+                      >
+                        {skill.icon}
+                        <span>{skill.name}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
             </div>
           </div>
         </section>

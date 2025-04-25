@@ -1,50 +1,164 @@
 import Bootstrap from "./assets/Bootstrap";
 import Git from "./assets/Git";
 import JavaScript from "./assets/JavaScript";
-import NextJs from "./assets/NextJs";
+import TypeScript from "./assets/TypeScript";
+import PHP from "./assets/PHP";
+import Python from "./assets/Python";
+import C from "./assets/C";
+import Golang from "./assets/Golang";
+import Bash from "./assets/Bash";
+import SQL from "./assets/SQL";
+import PostgreSQL from "./assets/PostgreSQL";
+import Laravel from "./assets/Laravel";
 import React from "./assets/React";
-import ReactQuery from "./assets/ReactQuery";
-import TailwindCSS from "./assets/TailwindCSS";
-import CSS from "./assets/CSS";
 import HTML from "./assets/HTML";
+import CSS from "./assets/CSS";
+import TailwindCSS from "./assets/TailwindCSS";
+import Figma from "./assets/Figma";
+import Linux from "./assets/Linux";
+import MacOS from "./assets/MacOS";
+import Windows from "./assets/Windows";
+import Docker from "./assets/Docker";
+import VirtualBox from "./assets/VirtualBox";
+import UML from "./assets/UML";
+import Github from "./assets/Github";
+import Jira from "./assets/Jira";
 
 // Your Skills
 export const skills = [
+  // Languages de Programmation
   {
-    name: "React",
-    icon: <React />,
+    name: "C",
+    icon: <C />,
+    category: "Language de Programmation"
   },
   {
-    name: "NextJs",
-    icon: <NextJs />,
+    name: "Golang",
+    icon: <Golang />,
+    category: "Language de Programmation"
   },
   {
     name: "JavaScript",
     icon: <JavaScript />,
+    category: "Language de Programmation"
   },
   {
-    name: "React Query",
-    icon: <ReactQuery />,
+    name: "TypeScript",
+    icon: <TypeScript />,
+    category: "Language de Programmation"
   },
   {
-    name: "Tailwind CSS",
-    icon: <TailwindCSS />,
+    name: "Python",
+    icon: <Python />,
+    category: "Language de Programmation"
   },
   {
-    name: "Git",
-    icon: <Git />,
+    name: "PHP",
+    icon: <PHP />,
+    category: "Language de Programmation"
   },
   {
-    name: "Bootstrap",
-    icon: <Bootstrap />,
+    name: "Bash",
+    icon: <Bash />,
+    category: "Language de Programmation"
   },
   {
-    name: "CSS",
-    icon: <CSS />,
+    name: "SQL",
+    icon: <SQL />,
+    category: "Language de Programmation"
+  },
+  {
+    name: "PostgreSQL",
+    icon: <PostgreSQL />,
+    category: "Language de Programmation"
+  },
+  
+  // Technologies Web
+  {
+    name: "Laravel",
+    icon: <Laravel />,
+    category: "Technologies Web"
+  },
+  {
+    name: "React",
+    icon: <React />,
+    category: "Technologies Web"
   },
   {
     name: "HTML",
     icon: <HTML />,
+    category: "Technologies Web"
+  },
+  {
+    name: "CSS",
+    icon: <CSS />,
+    category: "Technologies Web"
+  },
+  {
+    name: "Tailwind CSS",
+    icon: <TailwindCSS />,
+    category: "Technologies Web"
+  },
+  {
+    name: "Bootstrap",
+    icon: <Bootstrap />,
+    category: "Technologies Web"
+  },
+  {
+    name: "Figma",
+    icon: <Figma />,
+    category: "Technologies Web"
+  },
+  
+  // Virtualisation et Systèmes d'Exploitation
+  {
+    name: "Linux",
+    icon: <Linux />,
+    category: "Virtualisation et Systèmes d'Exploitation"
+  },
+  {
+    name: "MacOS",
+    icon: <MacOS />,
+    category: "Virtualisation et Systèmes d'Exploitation"
+  },
+  {
+    name: "Windows",
+    icon: <Windows />,
+    category: "Virtualisation et Systèmes d'Exploitation"
+  },
+  {
+    name: "Docker",
+    icon: <Docker />,
+    category: "Virtualisation et Systèmes d'Exploitation"
+  },
+  {
+    name: "VirtualBox",
+    icon: <VirtualBox />,
+    category: "Virtualisation et Systèmes d'Exploitation"
+  },
+  
+  // Analyse et modélisation
+  {
+    name: "UML",
+    icon: <UML />,
+    category: "Analyse et modélisation"
+  },
+  
+  // Outils de Collaboration
+  {
+    name: "Git",
+    icon: <Git />,
+    category: "Outils de Collaboration"
+  },
+  {
+    name: "Github",
+    icon: <Github size={18} />,
+    category: "Outils de Collaboration"
+  },
+  {
+    name: "Jira",
+    icon: <Jira />,
+    category: "Outils de Collaboration"
   },
 ];
 
