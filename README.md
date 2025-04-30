@@ -34,7 +34,7 @@ Easily personalize your website by editing a single configuration file!
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/amirmousav1/portfolio.git
+git clone https://github.com/anelissao/portfolio.git
 cd portfolio
 ```
 
@@ -79,7 +79,6 @@ npm run build
        myEmail: "your-email@example.com",
        linkedinUrl: "https://www.linkedin.com/in/your-profile",
        githubUrl: "https://github.com/your-username",
-       telegramUrl: "https://t.me/your-username",
        resumeUrl: "Link to your resume",
        aboutTitle: "A title for your 'About Me' section",
        aboutMe:

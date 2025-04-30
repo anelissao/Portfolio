@@ -7,7 +7,7 @@ import Arrow from "./assets/Arrow";
 import Linkedin from "./assets/Linkedin";
 import Github from "./assets/Github";
 import Download from "./assets/Download";
-import Telegram from "./assets/Telegram";
+
 
 function App() {
   const aboutRef = useRef(null);
@@ -161,15 +161,15 @@ function App() {
               {myInformations.aboutTitle}
             </h4>
             <p className="text-base md:text-[18px] leading-[160%] md:leading-[150%] mb-10 md:mb-[53px]">
-              Hi there! I'm a 20-year-old frontend developer from Shiraz,
+              Hi there! I'm a 25-year-old Full Stack Web Developer from Morocco,
               studying IT.
               <br />
               I pay close attention to details and always try to deliver the
               best results. Solving problems excites me, and I'm always
               motivated to learn new things.
               <br />
-              When I'm not coding, I enjoy playing chess, watching football, and
-              catching up on movies and TV shows.
+              When I'm not coding, I enjoy playing chess, lestening to music, and
+              catching up on teck updates.
               <br />
               Feel free to reach out if you'd like to collaborate on something
               great!
@@ -194,7 +194,7 @@ function App() {
               <a
                 target="_blank"
                 className="bg-secondary h-12 sm:h-[54px] w-12 sm:w-[54px] flex items-center justify-center rounded-full"
-                href="https://github.com/amirmousav1"
+                href="https://github.com/anelissao"
               >
                 <Github />
               </a>
@@ -272,13 +272,8 @@ function App() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/amirmousav1">
+                    <a href="https://github.com/anelissao">
                       <Github size={22} />
-                    </a>
-                  </li>
-                  <li>
-                    <a href={myInformations.telegramUrl}>
-                      <Telegram />
                     </a>
                   </li>
                 </ul>
