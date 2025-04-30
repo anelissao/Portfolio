@@ -7,7 +7,7 @@ Easily personalize your website by editing a single configuration file!
 
 ## 🖼 Demo
 
-[Visit Live Demo](https://amirmousavi.netlify.app)
+[Visit Live Demo](https://anouar-dev.vercel.app/)
 
 ---
 
