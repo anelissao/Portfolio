@@ -23,6 +23,11 @@ import VirtualBox from "./assets/VirtualBox";
 import UML from "./assets/UML";
 import Github from "./assets/Github";
 import Jira from "./assets/Jira";
+import NodeJS from "./assets/NodeJS";
+import ExpressJS from "./assets/ExpressJS";
+import MongoDB from "./assets/MongoDB";
+import Ansible from "./assets/Ansible";
+import Jenkins from "./assets/Jenkins";
 
 // Your Skills
 export const skills = [
@@ -72,6 +77,11 @@ export const skills = [
     icon: <PostgreSQL />,
     category: "Language de Programmation"
   },
+  {
+    name: "MongoDB",
+    icon: <MongoDB />,
+    category: "Language de Programmation"
+  },
   
   // Technologies Web
   {
@@ -107,6 +117,16 @@ export const skills = [
   {
     name: "Figma",
     icon: <Figma />,
+    category: "Technologies Web"
+  },
+  {
+    name: "Node.js",
+    icon: <NodeJS />,
+    category: "Technologies Web"
+  },
+  {
+    name: "Express.js",
+    icon: <ExpressJS />,
     category: "Technologies Web"
   },
   
@@ -160,10 +180,30 @@ export const skills = [
     icon: <Jira />,
     category: "Outils de Collaboration"
   },
+  {
+    name: "Jenkins",
+    icon: <Jenkins />,
+    category: "Outils de Collaboration"
+  },
+  {
+    name: "Ansible",
+    icon: <Ansible />,
+    category: "Outils de Collaboration"
+  },
 ];
 
 // Your Projects
 export const projects = [
+  {
+    title: "WattuneedMaroc.com",
+    description:
+      "Creation and deployment of a professional website for a clean energy company using Laravel. Full-stack development project built from scratch during an internship, featuring server deployment, hosting, and AI chatbot integration.",
+    year: "2025",
+    technologies: "Laravel Blade, PostgreSQL, ReactJS, TailwindCSS, Docker, Jira, Git, Jenkins",
+    image: "./wattuneed.png",
+    demoLink: "https://wattuneedmaroc.com",
+    //githubLink: "https://github.com/anelissao/Fil-rouge-porject",
+  },
   {
     title: "Futbin Scrapped Data",
     description:
@@ -183,16 +223,6 @@ export const projects = [
     image: "./push_swap.gif",
     githubLink: "https://github.com/anelissao/ft_push_swap",
   },
-  {
-    title: "Debriefing Platform",
-    description:
-      "Debriefing.com is an online peer evaluation platform that allows teachers to create briefs and randomly assign students to review each other's work, promoting critical thinking and streamlining the assessment process.",
-    year: "2025",
-    technologies: "blade, Tailwind, Laravel, PHP, postgresql",
-    image: "./deb.png",
-   // demoLink: "https://tickboard.netlify.app",
-    githubLink: "https://github.com/anelissao/Fil-rouge-porject",
-  },
 ];
 
 // Your Informations
@@ -203,8 +233,7 @@ export const myInformations = {
   myEmail: "anouarelissaoui20@gmail.com",
   linkedinUrl: "https://www.linkedin.com/in/anouar-elissaoui-785752227/",
   githubUrl: "https://github.com/anelissao",
-  resumeUrl:
-    "https://drive.google.com/file/d/1GabP_oSU6CqOsPJ5J94rpT6I3Vd7fulQ/view?usp=sharing",
+  resumeUrl: "AnouarCVfr.pdf",
   aboutTitle: "I am a Full Stack Web Developer based in Morocco",
   aboutMe:
     "Hi there! I'm a 25-year-old Full Stack developer from Morocco, studying IT. <br /> I pay close attention to details and always try to deliver the best results. Solving problems excites me, and I'm always motivated to learn new things. <br /> When I'm not coding, I enjoy playing chess, lestening to music, and catching up on tech updates. <br /> Feel free to reach out if you'd like to collaborate on something great!",
